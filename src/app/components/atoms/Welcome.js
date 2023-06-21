@@ -37,7 +37,7 @@ export default function Welcome() {
         <h6 className="text-xs" style={hello}>
           QUESTION? <span style={helloSpan}>Say hi!</span>
         </h6>
-        <div className='mt-4 flex justify-between'>
+        <div className='mr-4 mt-4 flex justify-between'>
           <div style={contactPill}>lorem</div>
           <div style={contactPill}>lorem</div>
           <div style={contactPill}>lorem</div>
