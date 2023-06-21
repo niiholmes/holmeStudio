@@ -1,10 +1,8 @@
 export default function Cards() {
-  return <div style={card} className="  gap-2 w-32 h-32 mt-8">
-    
-  </div>;
+  return <div style={card} className=" w-80  mr-4 gap-10  h-80 "></div>;
 }
 
-
-const card={
-  backgroundColor:"#D9D9D9"
-}
+const card = {
+  backgroundColor: '#D9D9D9',
+  minWidth: '200px'
+};

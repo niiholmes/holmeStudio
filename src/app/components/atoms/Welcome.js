@@ -2,7 +2,7 @@ import Cards from './Cards';
 
 export default function Welcome() {
   return (
-    <div className="mt-14 mx-4">
+    <div className="mt-14 ml-4">
       <h6 className="text-xs" style={hello}>
         hello world! <span style={helloSpan}>nice to meet you</span>
       </h6>
@@ -26,16 +26,17 @@ export default function Welcome() {
           <span style={helloSpan}>Take a look at my recent projects</span>
         </h6>
       </div>
-      <div className=" grid grid-cols-2">
+      <div className=" mt-8 min-h-64  overflow-x-auto flex ">
         <Cards />
         <Cards />
         <Cards />
         <Cards />
+       
       </div>
-      <div className="mt-14 mx-4">
-      <h6 className="text-xs" style={hello}>
-      QUESTION? <span style={helloSpan}>Say hi!</span>
-      </h6>
+      <div className="mt-14 mx-4 min-w-min">
+        <h6 className="text-xs" style={hello}>
+          QUESTION? <span style={helloSpan}>Say hi!</span>
+        </h6>
       </div>
     </div>
   );
