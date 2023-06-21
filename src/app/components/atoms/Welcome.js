@@ -6,7 +6,7 @@ export default function Welcome() {
       <h6 className="text-xs" style={hello}>
         hello world! <span style={helloSpan}>nice to meet you</span>
       </h6>
-      <p className="text-xs text-justify pt-2">
+      <p className=" mr-4 text-xs text-justify pt-2">
         lorem ipsum lorem ipsum lorem ipsum lorem ip lorem ipsum lorem ipsum
         lorem ipsum lorem ip lorem ipsum lorem ipsum lorem ipsum lorem ip lorem
         ipsum lorem ipsum lorem ipsum lorem ip lorem ipsum lorem ipsum lorem
@@ -33,10 +33,15 @@ export default function Welcome() {
         <Cards />
        
       </div>
-      <div className="mt-14 mx-4 min-w-min">
+      <div className="mt-14  min-w-min">
         <h6 className="text-xs" style={hello}>
           QUESTION? <span style={helloSpan}>Say hi!</span>
         </h6>
+        <div className='mt-4 flex justify-between'>
+          <div style={contactPill}>lorem</div>
+          <div style={contactPill}>lorem</div>
+          <div style={contactPill}>lorem</div>
+        </div>
       </div>
     </div>
   );
@@ -49,3 +54,15 @@ const hello = {
 const helloSpan = {
   color: '#A9A3A3',
 };
+
+
+const contactPill={
+  backgroundColor:"#D9D9D9",
+  color:"#278AE4",
+  paddingTop: "4px",
+  paddingLeft: "25px",
+  fontSize:"12px",
+  borderRadius: "50px",
+  width:"80px",
+  height: "25px"
+}
