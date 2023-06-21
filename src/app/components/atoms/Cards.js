@@ -1,5 +1,5 @@
 export default function Cards() {
-  return <div style={card} className=" w-80  mr-4 gap-10  h-80 "></div>;
+  return <div style={card} className=" w-2/3 rounded-xl  mr-4 gap-10  h-80 "></div>;
 }
 
 const card = {
