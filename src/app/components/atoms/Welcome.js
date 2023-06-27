@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Cards from './Cards';
 
 export default function Welcome() {
@@ -15,10 +16,10 @@ export default function Welcome() {
         lorem ip lorem ipsum lorem ipsum lorem ipsum lorem ip lorem ipsum lorem
         ipsum lorem ipsum lorem ip
       </p>
-      <div className="mt-3 flex">
+      <Link href="/contact"><div className="mt-3 flex">
         <span className="pr-2 text-xs">&#8594;</span>
         <h6 className="text-xs border-b-2">get in touch</h6>
-      </div>
+      </div></Link>
 
       <div className="mt-14">
         <h6 className="text-xs" style={hello}>

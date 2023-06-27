@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Service from "../components/atoms/Service";
 
 export default function About() {
@@ -41,12 +42,12 @@ export default function About() {
         </div>
       </div>
       <div className=" mt-10 mx-4 flex justify-between">
-      <div className="">
+     <Link href="/"> <div className="">
         <h6><span className="">&#8592;</span> HOME</h6>
-      </div>
-      <div className="">
+      </div></Link>
+     <Link href="/works"> <div className="">
         <h6> WORKS <span className="">&#8594;</span></h6>
-      </div>
+      </div></Link>
       </div>
     </main>
   );
