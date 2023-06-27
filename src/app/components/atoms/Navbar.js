@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div className="flex justify-between m-4 text-xs">
       <div>
-       <Link href="/"><h4>klvn</h4></Link> 
+       <Link href="/"><h4 className="font-bold">klvn</h4></Link> 
       </div>
       <div className="flex w-32 justify-between">
         <div >
