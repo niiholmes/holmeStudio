@@ -1,18 +1,20 @@
+import Link from "next/link";
+
 export default function Navbar() {
   return (
     <div className="flex justify-between m-4 text-xs">
       <div>
-        <h4>klvn</h4>
+       <Link href="/"><h4>klvn</h4></Link> 
       </div>
       <div className="flex w-32 justify-between">
         <div >
-          <h4>about</h4>
+          <Link href="/about"><h4>about</h4></Link>
         </div>
         <div>
-          <h4>works</h4>
+          <Link href="/works"><h4>works</h4></Link>
         </div>
         <div>
-          <h4>sayHi</h4>
+         <Link href="/contact"><h4>sayHi</h4></Link> 
         </div>
       </div>
     </div>

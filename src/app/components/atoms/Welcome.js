@@ -16,7 +16,7 @@ export default function Welcome() {
         ipsum lorem ipsum lorem ip
       </p>
       <div className="mt-3 flex">
-        <span className="pr-2 text-xs">-&gt;</span>
+        <span className="pr-2 text-xs">&#8594;</span>
         <h6 className="text-xs border-b-2">get in touch</h6>
       </div>
 
